@@ -1,0 +1,138 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.first{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    margin:30px auto;
+    background-color: rgb(73, 236, 73);
+    padding : 50px 40px;
+}
+h1,p{
+    margin-bottom: 2px;
+    color: black;
+}
+p{
+    margin-top: 20px;;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 18px;
+    background-color: black;
+    color: beige;
+}
+/*second block css*/
+.second {
+    width: 350px;
+    height: 450px;
+    margin: 20px auto;
+    border: 1px solid grey;
+    border-radius: 18px;
+    padding: 0px;
+}
+.second > .sec-img{
+    width: 350px;
+    height: 200px;
+    border-top-left-radius:17px ;
+    border-top-right-radius: 17px;
+}
+
+.icon-text > h3{
+    color: black;
+    margin: 10px;
+}
+
+.icon-text > h5{
+    margin: 10px;
+    color: gray;
+}
+
+.icon-text > p{
+    color: rgb(97, 95, 95);
+    margin: 10px;
+}
+h5 > img{
+    width: 14px;
+    margin-top: 3px;
+    padding: 0;
+}
+
+.icon-text > button{
+    color: blue;
+    margin: 10px;
+    padding: 7px 20px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+
+/*third block css*/
+.third{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 18px;
+    margin:  10px auto;
+    padding: 10px;
+}
+
+.third > h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+   padding: 0px;
+   margin: 0px;
+}
+
+.third > h5{
+    text-align: center;
+    font-weight: 500;
+}
+
+.third > input{
+    
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 190px;
+    margin: 10px auto;
+}
+
+.third button{
+    
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+
+}
+
+.third p{
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+    padding: 0;
+    margin: 0px;
+    font-weight: 100;
+}
+a{
+    color: black;
+    text-align: center;
+    
+}
+.third a{
+    text-align: center;
+}
